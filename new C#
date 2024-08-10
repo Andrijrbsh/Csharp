@@ -1,15 +1,11 @@
 using System
 
-namespace C-TUTORIAL
 {
         class Program 
     {
             static void Main(string[] args)
         {
-            for (int i = 0; i < count.; i++)
-            {
-                
-            }
+            System.Console.WriteLine("Hello world");
         }
     }
 }
