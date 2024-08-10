@@ -1,1 +1,12 @@
-sdsa
+using System
+
+namespace C-TUTORIAL
+{
+    class Program 
+{
+    static void Main(string[] args)
+    {
+
+    }
+}
+}
