@@ -2,11 +2,11 @@ using System
 
 namespace C-TUTORIAL
 {
-    class Program 
-{
-    static void Main(string[] args)
+        class Program 
     {
-
+            static void Main(string[] args)
+        {
+            
+        }
     }
-}
 }
