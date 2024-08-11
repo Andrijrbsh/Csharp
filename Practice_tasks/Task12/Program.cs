@@ -24,7 +24,7 @@ namespace Task12
                 }
                 System.Console.WriteLine();
             }
-            Console.ReadKey();
+            System.Console.ReadKey();
         }
     }
 }
