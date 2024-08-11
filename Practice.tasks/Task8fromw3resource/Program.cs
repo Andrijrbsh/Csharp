@@ -1,2 +1,21 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace Task3fromw3resource
+{
+    class Program 
+{
+        static void Main(string[] args)
+    {
+        Console.WriteLine("Enter a number");
+         string? number = Console.ReadLine();
+         if(int.TryParse(number, out int output))
+         {
+             for (int i = 0; i <= 10; i++)
+             {
+                System.Console.WriteLine("{0} * {1} = {2}", output, i, (output * i));
+             }
+         }
+    }
+}
+}
+
