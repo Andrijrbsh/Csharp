@@ -7,7 +7,7 @@ namespace Task12
         static void Main(string[] args)
     {
         System.Console.WriteLine("Enter a number: ");
-        string inputFromUser = Console.ReadLine();
+        string? inputFromUser = Console.ReadLine();
         if (int.TryParse(inputFromUser, out int outputFromUser))
         {
             for (int i = 0; i < 2; i++)
